@@ -9,12 +9,12 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1f3d2b] text-white pt-16">
+    <footer className="bg-[#1a4a4a] text-white pt-16">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
 
         {/* CONNECT WITH US */}
         <div>
-          <h3 className="text-lg font-bold mb-4 text-yellow-400">
+          <h3 className="text-lg font-bold mb-4 text-white">
             Connect With Us
           </h3>
 
@@ -39,7 +39,7 @@ const Footer = () => {
 
         {/* QUICK LINKS */}
         <div>
-          <h3 className="text-lg font-bold mb-4 text-yellow-400">
+          <h3 className="text-lg font-bold mb-4 text-white">
             Quick Links
           </h3>
           <ul className="space-y-3 text-sm">
@@ -53,7 +53,7 @@ const Footer = () => {
 
         {/* OTHER RESOURCES */}
         <div>
-          <h3 className="text-lg font-bold mb-4 text-yellow-400">
+          <h3 className="text-lg font-bold mb-4 text-white">
             Other Resources
           </h3>
           <ul className="space-y-3 text-sm">
@@ -66,10 +66,10 @@ const Footer = () => {
       </div>
 
       {/* DIVIDER */}
-      <div className="mt-12 border-t border-white/20"></div>
+      <div className="mt-12 border-t border-white"></div>
 
       {/* COPYRIGHT */}
-      <p className="py-6 text-center text-sm text-white/80">
+      <p className="py-6 text-center text-sm text-white">
         Copyright © 2026 Milliya Girls High School.
         All Rights Reserved.
       </p>

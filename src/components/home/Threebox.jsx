@@ -2,14 +2,14 @@ import React from "react";
 
 const Threebox = () => {
   return (
-    <section className="bg-[#1f3d2b] py-18">
+    <section className="bg-[#1a4a4a] py-18">
       <div className="relative max-w-7xl mx-auto px-6">
 
         {/* DESKTOP STACKED VIEW */}
         <div className="relative h-105 hidden md:block">
 
           {/* LEFT CARD */}
-          <div className="absolute left-0 top-10 w-[32%] bg-[#274c37] text-white p-8 rounded-xl shadow-xl min-h-80 z-10">
+          <div className="absolute left-0 top-10 w-[32%] bg-[#147267] text-white p-8 rounded-xl shadow-xl min-h-80 z-10">
             <h3 className="text-2xl font-bold mb-4 text-yellow-400">
               Notice Board
             </h3>
@@ -26,7 +26,7 @@ const Threebox = () => {
           </div>
 
           {/* CENTER CARD */}
-          <div className="absolute left-1/2 -translate-x-1/2 top-0 w-[36%] bg-[#355f47] text-white p-10 rounded-xl shadow-2xl min-h-90 z-20">
+          <div className="absolute left-1/2 -translate-x-1/2 top-0 w-[36%] bg-[#147267] text-white p-10 rounded-xl shadow-2xl min-h-90 z-20">
             <h3 className="text-2xl font-bold mb-5 text-yellow-400">
               Download Forms
             </h3>
@@ -44,7 +44,7 @@ const Threebox = () => {
           </div>
 
           {/* RIGHT CARD */}
-          <div className="absolute right-0 top-10 w-[32%] bg-[#274c37] text-white p-8 rounded-xl shadow-xl min-h-80 z-10">
+          <div className="absolute right-0 top-10 w-[32%] bg-[#147267] text-white p-8 rounded-xl shadow-xl min-h-80 z-10">
             <h3 className="text-2xl font-bold mb-4 text-yellow-400">
               Important Links
             </h3>
@@ -64,7 +64,7 @@ const Threebox = () => {
 
         {/* MOBILE STACK (NO OVERLAP) */}
         <div className="md:hidden grid grid-cols-1 gap-6">
-          <div className="bg-[#274c37] text-white p-8 rounded-xl shadow min-h-70">
+          <div className="bg-[#147267] text-white p-8 rounded-xl shadow min-h-70">
             <h3 className="text-xl font-bold mb-3 text-yellow-400">
               Notice Board
             </h3>
@@ -76,7 +76,7 @@ const Threebox = () => {
             </ul>
           </div>
 
-          <div className="bg-[#355f47] text-white p-8 rounded-xl shadow min-h-75">
+          <div className="bg-[#147267] text-white p-8 rounded-xl shadow min-h-75">
             <h3 className="text-xl font-bold mb-3 text-yellow-400">
               Download Forms
             </h3>
@@ -88,7 +88,7 @@ const Threebox = () => {
             </ul>
           </div>
 
-          <div className="bg-[#274c37] text-white p-8 rounded-xl shadow min-h-70">
+          <div className="bg-[#147267] text-white p-8 rounded-xl shadow min-h-70">
             <h3 className="text-xl font-bold mb-3 text-yellow-400">
               Important Links
             </h3>
