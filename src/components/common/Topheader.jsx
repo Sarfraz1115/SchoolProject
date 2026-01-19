@@ -2,7 +2,7 @@ import React from 'react'
 
 const Topheader = () => {
     return (
-        <div className="bg-[#3DD5C3] ">
+        <div className="bg-[#3AD7B5] ">
             <div className="max-w-7xl mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <div className="shrink-0">
